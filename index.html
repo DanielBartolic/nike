@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css">
+
+    <title>Nike</title>
+    <style>  
+  </style>  
+  </head>
+  <body>
+    <div class="top">
+      <h1>NIKE</h1>
+    <hr/>
+    <div class="subLeft"><h2><a href="#home">HOME</a></h2></div><div class="subCenter"><h2><a href="#products">PRODUCTS</a></h2></div><div class="subRight"><h2><a href="#logo">LOGO</a></h2></div>
+    
+    
+    </div>
+
+    <div class="home" id="home">
+
+      <img class="justdoit" id="justdoit" src="justDoIt.svg">
+
+      <br/>
+
+        <svg class="pre-logo-svg" height="200px" width="200px" fill="#111" viewBox="0 0 69 32">
+          <path d="M68.56 4L18.4 25.36Q12.16 28 7.92 28q-4.8 0-6.96-3.36-1.36-2.16-.8-5.48t2.96-7.08q2-3.04 6.56-8-1.6 2.56-2.24 5.28-1.2 5.12 2.16 7.52Q11.2 18 14 18q2.24 0 5.04-.72z"></path>
+        </svg>
+    </div>
+
+    <div class="products" id="products">
+      <img class="majca" id="majca" src="majce2.png">
+      <br>
+
+<input type="radio" name="color" id="red" value="red" onclick="document.getElementById('majca').style.backgroundColor = 'red'"/>
+<label for="red"><span class="red"></span></label>
+
+<input type="radio" name="color" id="green" onclick="document.getElementById('majca').style.backgroundColor = 'green'" />
+<label for="green"><span class="green"></span></label>
+
+<input type="radio" name="color" id="yellow" onclick="document.getElementById('majca').style.backgroundColor = 'yellow'"/>
+<label for="yellow"><span class="yellow"></span></label>
+
+<input type="radio" name="color" id="olive" onclick="document.getElementById('majca').style.backgroundColor = 'olive'"/>
+<label for="olive"><span class="olive"></span></label>
+
+<input type="radio" name="color" id="orange" onclick="document.getElementById('majca').style.backgroundColor = 'orange'"/>
+<label for="orange"><span class="orange"></span></label>
+
+<input type="radio" name="color" id="teal" onclick="document.getElementById('majca').style.backgroundColor = 'teal'"/>
+<label for="teal"><span class="teal"></span></label>
+
+<input type="radio" name="color" id="white" onclick="document.getElementById('majca').style.backgroundColor = 'white'" checked/>
+<label for="white"><span class="white"></span></label>
+
+<input type="radio" name="color" id="violet" onclick="document.getElementById('majca').style.backgroundColor = 'violet'" />
+<label for="violet"><span class="violet"></span></label>
+
+<input type="radio" name="color" id="purple" onclick="document.getElementById('majca').style.backgroundColor = 'purple'"/>
+<label for="purple"><span class="purple"></span></label>
+
+<input type="radio" name="color" id="pink" onclick="document.getElementById('majca').style.backgroundColor = 'pink'" />
+<label for="pink"><span class="pink"></span></label>
+
+    </div>
+    
+    <div class="logo" id="logo">
+      <div id="logopic">
+        <img class="nikejpg" id="nikejpg" src="nike.jpg">
+      </div>
+      <div id="logopic">
+        <canvas id="myCanvas" width="200" height="200"></canvas>
+    
+        <script>
+          var c = document.getElementById("myCanvas");
+          var ctx = c.getContext("2d");
+          ctx.scale(2.86, 2.86);
+          ctx.beginPath();
+
+          ctx.moveTo(69.56, 24);
+          ctx.bezierCurveTo(69.56, 24, 19.4, 45.36, 19.4, 45.36);
+          ctx.bezierCurveTo(15.239999999999998, 47.12, 11.746666666666666, 48, 8.92, 48);
+          ctx.bezierCurveTo(5.72, 48, 3.4, 46.879999999999995, 1.96, 44.64);
+          ctx.bezierCurveTo(1.0533333333333332, 43.2, 0.7866666666666666, 41.373333333333335, 1.16, 39.16);
+          ctx.bezierCurveTo(1.5333333333333332, 36.946666666666665, 2.52, 34.586666666666666, 4.12, 32.08);
+          ctx.bezierCurveTo(5.453333333333333, 30.05333333333333, 7.64, 27.386666666666663, 10.68, 24.08);
+          ctx.bezierCurveTo(9.613333333333333, 25.78666666666667, 8.866666666666667, 27.546666666666667, 8.44, 29.36);
+          ctx.bezierCurveTo(7.639999999999999, 32.77333333333333, 8.36, 35.28, 10.6, 36.879999999999995);
+          ctx.bezierCurveTo(11.666666666666666, 37.626666666666665, 13.133333333333333, 38, 15, 38);
+          ctx.bezierCurveTo(16.493333333333332, 38, 18.173333333333332, 37.76, 20.04, 37.28);
+          ctx.bezierCurveTo(20.04, 37.28, 69.56, 24, 69.56, 24);
+          ctx.stroke();
+          ctx.fillStyle = "black";
+          ctx.fill();
+        </script>
+      </div>
+      <div id="logopic">
+        <svg class="pre-logo-svg" height="200px" width="200px" fill="#111" viewBox="0 0 69 32">
+          <path
+            d="M68.56 4L18.4 25.36Q12.16 28 7.92 28q-4.8 0-6.96-3.36-1.36-2.16-.8-5.48t2.96-7.08q2-3.04 6.56-8-1.6 2.56-2.24 5.28-1.2 5.12 2.16 7.52Q11.2 18 14 18q2.24 0 5.04-.72z">
+          </path>
+        </svg>
+      </div>
+    </div>
+
+  </body>
+</html>
